@@ -1,0 +1,21 @@
+.setup-quiz {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.setup-quiz input,
+.setup-quiz select {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+}
+.setup-quiz button {
+  width: 100%;
+  padding: 10px;
+  background-color: brown;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

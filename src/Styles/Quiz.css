@@ -1,0 +1,19 @@
+.quiz{
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.quiz button{
+  width: 100px;
+  margin: 5px;
+  padding: 10px;
+  background-color: aqua;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.quiz button:disabled{
+  background-color: #ccc;
+}
