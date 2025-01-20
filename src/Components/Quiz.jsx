@@ -35,7 +35,6 @@ function Quiz() {
   }, [quizSetup, navigate]);
 
   const handleAnswer = (answer) => {
-    // Fix 2: Corrected variable name typo
     const currentQuestion = questions[currentQuestionIndex];
     const isCorrect = answer === currentQuestion.correct_answer;
     setUserAnswers([...userAnswers, answer]);
